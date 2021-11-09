@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/postprocessor">
+
+    <fragment
+        android:id="@+id/postprocessor"
+        android:name="com.example.sapr_2.fragments.Postprocessor"
+        android:label="fragment_postprocessor"
+        tools:layout="@layout/fragment_postprocessor" />
+    <fragment
+        android:id="@+id/processor"
+        android:name="com.example.sapr_2.fragments.Processor"
+        android:label="fragment_processor"
+        tools:layout="@layout/fragment_processor" />
+    <fragment
+        android:id="@+id/preprocessor"
+        android:name="com.example.sapr_2.fragments.Preprocessor"
+        android:label="fragment_preprocessor"
+        tools:layout="@layout/fragment_preprocessor" />
+</navigation>

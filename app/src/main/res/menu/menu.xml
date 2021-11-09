@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Preprocessor"
+        android:id="@+id/preprocessor"
+        android:icon="@drawable/ic_baseline_brush_24"/>
+
+    <item android:title="Processor"
+        android:id="@+id/processor"
+        android:icon="@drawable/ic_baseline_hourglass_full_24"/>
+
+    <item android:title="PostProcessor"
+        android:id="@+id/postprocessor"
+        android:icon="@drawable/ic_baseline_auto_graph_24"/>
+</menu>
