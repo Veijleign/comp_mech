@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/length_rod"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="@string/L"
+        android:inputType="numberSigned"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/b_rod"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="@string/b"
+        android:inputType="numberSigned"
+        app:layout_constraintLeft_toRightOf="@+id/length_rod"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/E_rod"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:hint="@string/E"
+        android:inputType="numberSigned"
+        app:layout_constraintLeft_toRightOf="@+id/b_rod"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Sigma_rod"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:hint="@string/Sigma"
+        android:inputType="numberSigned"
+        app:layout_constraintLeft_toRightOf="@+id/E_rod"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
